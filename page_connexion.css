@@ -1,0 +1,74 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+/* Centrer la page */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEEB;
+}
+
+/* Cadre principal */
+.login-box {
+    width: 320px;
+    padding: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #98d2e9;
+}
+
+/* Titre */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Groupe champ */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Champs de saisie */
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Bouton */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mdp{
+    text-decoration: none;
+    font-size: small;
+    
+}
+
+/* Effet au survol */
+.btn:hover {
+    background-color: #f0e29f;
+}
